@@ -1,0 +1,8 @@
+from tkinter import*
+from PIL import ImageTk,Image
+top=Tk()
+c=Canvas(top,height=700,width=800)
+image=ImageTk.PhotoImage(file="C:\\Python\\Python310\\face\\3.jpg")
+c.create_image(0,0,anchor=NW,image=image)
+c.pack()
+top.mainloop()
